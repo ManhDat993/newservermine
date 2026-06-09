@@ -1,14 +1,14 @@
-[17:33:03.110][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
-[17:33:03.672][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+[17:36:52.436][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[17:36:52.986][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
 'angrymobs' at version '1.1'
 'contenttweaker' at version '1.0.0.develop.36'
 'crafttweaker' at version '7.1.2.511'
 'farmersdelight' at version '1.16.5-0.6.0'
 'jeitweaker' at version '1.1.0.49'
-[17:33:04.187][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
-[17:33:05.232][LOAD_REGISTRIES][CLIENT][INFO] Started loading Scripts for Loader 'contenttweaker'!
-[17:33:05.751][LOAD_REGISTRIES][CLIENT][INFO] Finished loading Scripts!
-[17:33:10.514][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
-[17:33:10.728][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
-[17:33:22.698][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[17:33:22.825][DONE][CLIENT][INFO] Finished loading Scripts!
+[17:36:53.430][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[17:36:54.413][LOAD_REGISTRIES][CLIENT][INFO] Started loading Scripts for Loader 'contenttweaker'!
+[17:36:54.946][LOAD_REGISTRIES][CLIENT][INFO] Finished loading Scripts!
+[17:36:59.298][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[17:36:59.510][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[17:37:09.356][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[17:37:09.467][DONE][CLIENT][INFO] Finished loading Scripts!
