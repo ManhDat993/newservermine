@@ -7,9 +7,6 @@
 	#Some mods may need a world restart for changes to take effect.
 	#Range: 1 ~ 1073741823
 	"Max stack size" = 999
-	#If you want to use the whitelist tag, set this to true
-	#The blacklist tag will not do anything
-	"Use whitelist tag" = false
 	#Whether to increase max transfer rate of some mods to the new stack limit/t.
 	#E.g. if max stack limit is 1000, it will become 1000 items per tick (where applicable).
 	#How this is done will vary for each mod
@@ -20,4 +17,7 @@
 	#- XNet can already extract a variable amount, but you will be able to go past 64 to the new maximum stack limit
 	#- Cyclic still extracts 1 stack (more than 64 items) per tick, but the size of the stack is adjusted
 	"Increase transfer rate" = true
+	#If you want to use the whitelist tag, set this to true
+	#The blacklist tag will not do anything
+	"Use whitelist tag" = false
 

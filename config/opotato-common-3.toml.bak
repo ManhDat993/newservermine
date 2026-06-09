@@ -1,17 +1,17 @@
 
 #Opotato Common Config
 ["Opotato Settings"]
-	"allow entities spawn limit" = false
 	#Range: 1 ~ 100
 	"max entities spawning number per chunk" = 10
-	"entities whose spawn won't be limited" = ["modid:mobid"]
+	"allow entities spawn limit" = false
 	"enable creative one pouch" = false
+	"entities whose spawn won't be limited" = ["modid:mobid"]
 
 ["Blue Skies Extra Settings"]
-	"enable blue skies nerf" = true
-	"allow every mod generate features in blue skies dimensions" = false
 	#Range: > 6
 	"gate keeper house spacing" = 18
+	"enable blue skies nerf" = true
+	"allow every mod generate features in blue skies dimensions" = false
 
 ["Ars Nouveau Extra Settings"]
 	"disable mana gems generation in basic loot chests" = false
@@ -26,43 +26,43 @@
 ["Cracker's Wither Storm Mod Optimization Settings"]
 	#Every settings here will improve performance a lot as the mod is really laggy
 	"let wither sickness ticking system only take effect on players" = false
-	"don't let the wither sickness ticking system affect monsters" = true
 	"don't let the wither sickness ticking system affect animals" = true
-	#With this turning on, the amount of block clusters will be reduced on rendering and they won't be rendered when no player see them
-	"block cluster render optimization" = false
 	#Entities that will be killed: Block Cluster, Sickened Skeleton, Sickened Creeper, Sickened Spider, Sickened Zombie, Tentacle, Withered Symbiont.
 	#Inspired by Lag Removal mod.
 	"kill witherstormmod entities after command block dies" = false
+	#With this turning on, the amount of block clusters will be reduced on rendering and they won't be rendered when no player see them
+	"block cluster render optimization" = false
+	"don't let the wither sickness ticking system affect monsters" = true
 
 ["L_Ender's Cataclysm Extra Settings"]
-	"Ignitium Armor has damage" = false
-	"Final Fractal has damage" = false
 	"Infernal Forge has damage" = false
-	"Monstrous Helm has damage" = false
 	"Zweiender has damage" = false
 	#Range: > 1
 	"void core cool down, in ticks" = 120
+	#Range: > 5
+	"burning arena spacing" = 60
+	#Range: > 5
+	"ruined citadel separation" = 10
+	#Range: > 120
+	"How long it takes to use Incinerator (charge) (in ticks)" = 72000
+	#Range: > 5
+	"soul black smith separation" = 40
 	#Range: > 1
 	"infernal forge cool down, in ticks" = 80
 	#Range: > 1
 	"incinerator cool down, in ticks" = 400
 	#Range: > 5
-	"soul black smith spacing" = 60
-	#Range: > 5
-	"soul black smith separation" = 40
-	#Range: > 5
 	"ruined citadel spacing" = 30
-	#Range: > 5
-	"ruined citadel separation" = 10
-	#Range: > 5
-	"burning arena spacing" = 60
-	#Range: > 5
-	"burning arena separation" = 40
-	#Range: > 120
-	"How long it takes to use Incinerator (charge) (in ticks)" = 72000
 	#About enchantability factor, see enchantability in https://minecraft.fandom.com/wiki/Tiers.
 	#Range: > 12
 	"Incinerator's enchantability factor" = 16
+	"Final Fractal has damage" = false
+	"Ignitium Armor has damage" = false
+	"Monstrous Helm has damage" = false
+	#Range: > 5
+	"burning arena separation" = 40
+	#Range: > 5
+	"soul black smith spacing" = 60
 
 ["The Undergarden Extra Settings"]
 	#Range: > 5
