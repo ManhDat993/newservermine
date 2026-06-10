@@ -1,0 +1,25 @@
+filename = 'packedup-1.1.0-forge-mc1.16.jar'
+name = 'Packed Up (Backpacks)'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.16', '1.16', '1.16.1', '1.16.1', '1.16.2', '1.16.2', '1.16.3', '1.16.3', '1.16.4', '1.16.4', '1.16.5', '1.16.5' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.0-forge-mc1.16'
+
+[download]
+hash = '14df310be7d7eb2475655648d65e3d4cee2f7b9288a6a0488f9c966bb9d9b94f23d4f2082017c45b0253bda91e8e131d1bd5cad7a1758646679b5eb9abdcc06f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZbFzEauY/versions/fGFtKAkT/packedup-1.1.0-forge-mc1.16.jar'
+
+[update.modrinth]
+mod-id = 'ZbFzEauY'
+version = 'fGFtKAkT'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'rOUBggPv'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LN9BxssP'
+type = 'REQUIRED'
